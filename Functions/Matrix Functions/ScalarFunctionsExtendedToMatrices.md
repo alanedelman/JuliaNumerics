@@ -34,9 +34,9 @@ f(x)=1/x, `f(M,v)=M\v`.
 
  
                       
-
-
-Common Cases:                Julia  MATLAB            Mathematica            Maple([LinearAlgebra] package)
+<table>
+<tr>
+<th> Common Cases:    </th><th>   Julia </th><th>  MATLAB </th><th>            Mathematica     </th><th>       Maple([LinearAlgebra] package) </th>
 
 Powers                               M^p              MatrixPower            MatrixPower
 Inverses                             inv(M),M^(-1)    Inverse                MatrixInverse
@@ -44,6 +44,8 @@ Matrix Exponential                   expm             MatrixExp              Mat
 Matrix Logarithm                     logm             MatrixLog              use MatrixFunction
 Matrix Sqrt                          sqrtm,M^(.5)     MatrixPower[M,0,5]     use MatrixPower
 General Functions                    funm             MatrixFunction         MatrixFunction
+</table>
+
 
 Additions that might make sense:
 
