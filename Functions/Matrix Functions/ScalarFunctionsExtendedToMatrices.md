@@ -43,9 +43,9 @@ Matrix Sqrt                          sqrtm,M^(.5)     MatrixPower[M,0,5]     use
 General Functions                    funm             MatrixFunction         MatrixFunction
 
 Additions that might make sense:
-1. A page for separate matrix functions
-2. Completion and Annotation of Reference List
-3. R, Python Syntax
-4. Numerical comparison of good test cases
+1.  A page for separate matrix functions
+2.  Completion and Annotation of Reference List
+3.  R, Python Syntax
+4.  Numerical comparison of good test cases
 
 would be good to add R and python and point out exactly the places where there are interesting numerical differencs.
