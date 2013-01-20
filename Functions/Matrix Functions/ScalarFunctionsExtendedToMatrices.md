@@ -38,7 +38,7 @@ f(x)=1/x, `f(M,v)=M\v`.
 <tr>
 <th> Function:    </th><th>   Julia </th><th>  MATLAB </th><th>            Mathematica     </th><th>       Maple ([LinearAlgebra] package) </th>
 <tr><th> Powers  </th><th>M^p</th><th> M^p </th><th>   MatrixPower </th><th>     MatrixPower </tr>
-<tr><th> Inverses </th><th>x</th>x </th>  <th> Inverse </th><th>                MatrixInverse </th></tr>
+<tr><th> Inverses </th><th>M^-1 or inv(M) </th><th>M^(-1) or inv(M) </th>  <th> Inverse </th><th>                MatrixInverse </th></tr>
 <tr><th>Matrix Exponential </th>     <th>expm</th><th>   expm </th>            <th> MatrixExp </th><th>    MatrixExponential </th>
 Matrix Logarithm                     logm             MatrixLog              use MatrixFunction
 <tr><th>Matrix Sqrt</th> <th>M^(0.5)</th>                        sqrtm,M^(.5)     MatrixPower[M,0,5]     use MatrixPower
