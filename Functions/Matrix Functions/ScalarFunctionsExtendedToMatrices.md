@@ -13,22 +13,22 @@ http://en.wikipedia.org/wiki/Matrix_function#Extending_scalar_functions_to_matri
 
  
 
-Numerical Conditioning Issues: The Mathematical Definition, while easy to implement, 
+**Numerical Conditioning Issues:**  The Mathematical Definition, while easy to implement, 
       can be highly ill-conditioned, especially when the eigenvector matrix itself
       is ill-conditioned.  The Schur decomposition (available in Lapack) can ameliorate this.
 
-Branch Cuts:  The issue of the proper handling of branch cuts for scalar functions
+**Branch Cuts:**  The issue of the proper handling of branch cuts for scalar functions
               is tricky enough.  It has been virtually ignored for matrix functions.
                Very likely different software packages will make different choices.
 
-Extra Accuracy:  Many of the most common elementary functions can be accurate to
+**Extra Accuracy:**  Many of the most common elementary functions
+such as sqrt (required by IEEE) and sine (if the right libraries are used) can be accurate to
                 the last bit, even when ill-conditioned.  This may be beyond
                  reach, and anyway has not been carefully studied.
 
-References: van Loan, Higham ....  (especially Higham's book)
+**References:** van Loan, Higham ....  (especially Higham's book)
 
-Variations:  a blackbox sending v-->f(M)*v can be more useful as in M\v
-             and can take advantage of so much
+**Variations:**  a blackbox sending v-->f(M)*v can be more useful as in M\v or  f(v)=expm(M)*v  (computed efficiently) can take advantage of so much
  
                       
 
