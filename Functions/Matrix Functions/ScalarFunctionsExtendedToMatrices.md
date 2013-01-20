@@ -36,12 +36,13 @@ f(x)=1/x, `f(M,v)=M\v`.
 **Rosetta Stone**                    
 <table>
 <tr>
-<th> Function:    </th><th>   Julia </th><th>  MATLAB </th><th>            Mathematica     </th><th>       Maple ([LinearAlgebra] package) </th>
+<th> Function:    </th><th>   Julia </th><th>  MATLAB </th><th>            Mathematica     </th><th>       Maple ([LinearAlgebra] package) </th><th>R</th>
 <tr><th> Powers  </th><th>M^p</th><th> M^p </th><th>   MatrixPower </th><th>     MatrixPower </tr>
 <tr><th> Inverses </th><th>M^-1 or inv(M) </th><th>M^(-1) or inv(M) </th>  <th> Inverse </th><th>                MatrixInverse </th></tr>
 <tr><th>Matrix Exponential </th>     <th>expm</th><th>   expm </th>            <th> MatrixExp </th><th>    MatrixExponential </th>
-Matrix Logarithm                     logm             MatrixLog              use MatrixFunction
-<tr><th>Matrix Sqrt</th> <th>M^(0.5)</th>                        sqrtm,M^(.5)     MatrixPower[M,0,5]     use MatrixPower
+</tr>
+<tr><th> Matrix Logarithm  </th><th>   </th><th>                logm </th>             MatrixLog              use MatrixFunction
+<tr><th>Matrix Sqrt</th> <th>M^.5</th>                        sqrtm,M^(.5)     MatrixPower[M,0,5]     use MatrixPower
 </tr>
 <tr>
 <th>General Functions </th>                    funm             MatrixFunction         MatrixFunction
