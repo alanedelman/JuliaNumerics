@@ -21,10 +21,10 @@ http://en.wikipedia.org/wiki/Matrix_function#Extending_scalar_functions_to_matri
               is tricky enough.  It has been virtually ignored for matrix functions.
                Very likely different software packages will make different choices.
 
-**Extra Accuracy:**  Many of the most common elementary functions
+**Extra Accuracy:**  Many of the most common elementary scalar functions
 such as sqrt (required by IEEE) and sine (if the right libraries are used) can be accurate to
                 the last bit, even when ill-conditioned.  This may be beyond
-                 reach, and anyway has not been carefully studied.
+                 reach in the matrix case, and anyway has not been carefully studied.
 
 **References:** van Loan, Higham ....  (especially Higham's book)
 
