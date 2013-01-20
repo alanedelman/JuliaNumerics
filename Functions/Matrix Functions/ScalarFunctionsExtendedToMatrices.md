@@ -1,15 +1,17 @@
-# Scalar Functions extended to Matrices:
+# Scalar Functions extended to Matrix functions of Matrices:
 **Wikipedia Definition:**
 http://en.wikipedia.org/wiki/Matrix_function#Extending_scalar_functions_to_matrix_functions
 
 **Notation:** f(M)
 
-**Syntax Ambiguities:** 
+**Ambiguities:** (other reasonable definitions of f(M)) 
 
-1. One can apply f to each element pointwise. 
-2. The cholesky factor is sometimes called a matrix sqrt,
-                           since when n=1 it is the ordinary sqrt.
-3.  Symmetric functions of the eigenvalues such as                         orthogonal polynomials of matrix argument and hypergeometrics                         of matrix argument. 
+1. Pointwise application of f. . 
+2. Cholesky Decoposition when f(x)=sqrt(x). (another generalization
+   of scalar sqrt)
+3. Scalar Functions of Matrix Argument (this page covers matrix functions of matrix argument)
+
+ 
 
 Numerical Conditioning Issues: The Mathematical Definition, while easy to implement, 
       can be highly ill-conditioned, especially when the eigenvector matrix itself
