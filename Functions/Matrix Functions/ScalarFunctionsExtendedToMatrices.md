@@ -41,8 +41,8 @@ f(x)=1/x, `f(M,v)=M\v`.
 <tr><th> Inverses </th><th>M^-1 or inv(M) </th><th>M^(-1) or inv(M) </th>  <th> Inverse </th><th>                MatrixInverse </th></tr>
 <tr><th>Matrix Exponential </th>     <th>expm</th><th>   expm </th>            <th> MatrixExp </th><th>    MatrixExponential </th>
 </tr>
-<tr><th> Matrix Logarithm  </th><th>   </th><th>                logm </th>             MatrixLog              use MatrixFunction
-<tr><th>Matrix Sqrt</th> <th>M^.5</th>                        sqrtm,M^(.5)     MatrixPower[M,0,5]     use MatrixPower
+<tr><th> Matrix Logarithm  </th><th>   </th><th>                logm </th>      <th>       MatrixLog </th><th>    use MatrixFunction </th>
+<tr><th>Matrix Sqrt</th> <th>M^.5</th> <th>                       sqrtm,M^(.5)  </th><th>   MatrixPower[M,0,5]   </th>  use MatrixPower
 </tr>
 <tr>
 <th>General Functions </th>                    funm             MatrixFunction         MatrixFunction
