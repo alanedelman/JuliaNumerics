@@ -28,7 +28,10 @@ such as sqrt (required by IEEE) and sine (if the right libraries are used) can b
 
 **References:** van Loan, Higham ....  (especially Higham's book)
 
-**Variations:**  a blackbox sending v-->f(M)*v can be more useful as in M\v or  f(v)=expm(M)*v  (computed efficiently) can take advantage of so much
+**Embelishments for efficiency and accuracy:**  
+ `f(M,v) = f(M)*v` (computed more efficiently).  For example, if
+f(x)=1/x, `f(M,v)=M\v`.
+
  
                       
 
@@ -43,6 +46,7 @@ Matrix Sqrt                          sqrtm,M^(.5)     MatrixPower[M,0,5]     use
 General Functions                    funm             MatrixFunction         MatrixFunction
 
 Additions that might make sense:
+
 1.  A page for separate matrix functions
 2.  Completion and Annotation of Reference List
 3.  R, Python Syntax
