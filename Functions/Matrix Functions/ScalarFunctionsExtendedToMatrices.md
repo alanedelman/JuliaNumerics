@@ -2,9 +2,9 @@
 **Wikipedia Definition:**
 http://en.wikipedia.org/wiki/Matrix_function#Extending_scalar_functions_to_matrix_functions
 
-Notation: f(M)
+**Notation:** f(M)
 
-Syntax Ambiguities:  One can apply f to each element pointwise. 
+**Syntax Ambiguities:**  One can apply f to each element pointwise. 
                      The cholesky factor is sometimes called a matrix sqrt,
                            since when n=1 it is the ordinary sqrt.
                      Symmetric functions of the eigenvalues such as
