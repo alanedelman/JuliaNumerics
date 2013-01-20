@@ -1,5 +1,5 @@
 # Scalar Functions extended to Matrices:
-*Wikipedia Definition:*
+**Wikipedia Definition:**
 http://en.wikipedia.org/wiki/Matrix_function#Extending_scalar_functions_to_matrix_functions
 
 Notation: f(M)
