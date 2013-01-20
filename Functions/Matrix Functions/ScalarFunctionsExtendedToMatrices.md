@@ -9,7 +9,7 @@ http://en.wikipedia.org/wiki/Matrix_function#Extending_scalar_functions_to_matri
 1. Pointwise application of f. . 
 2. Cholesky Decoposition when f(x)=sqrt(x). (another generalization
    of scalar sqrt)
-3. Scalar Functions of Matrix Argument (this page covers matrix functions of matrix argument)
+3. Less well known: Scalar Functions extended to scalar functions of Matrix Argument (this page covers scalar functions extended to  matrix functions of matrix argument)
 
  
 
