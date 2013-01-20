@@ -48,8 +48,14 @@ f(x)=1/x, `f(M,v)=M\v`.
 <th>General Functions </th>   <th></th><th>                 funm </th> <th>     MatrixFunction </th><th>         MatrixFunction
  </th></table>
 
-**Intra-Language Consistency**
-1. Julia: scalar '(-1)^.5` is a NaN, matrix `(-eye(2))^.5` gives complex answers.
+**Test Case**
+`[0 1;0 0]^.5` should probably not be finite
+
+**Intra-Language inconsistency**
+
+1. Julia: scalar `(-1)^.5` is a NaN, matrix `(-eye(2))^.5` gives complex answers.
+
+**Inter-Language inconsistency**
 
 
 Additions that might make sense:
