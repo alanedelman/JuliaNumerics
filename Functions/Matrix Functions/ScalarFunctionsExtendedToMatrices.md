@@ -33,7 +33,7 @@ such as sqrt (required by IEEE) and sine (if the right libraries are used) can b
 f(x)=1/x, `f(M,v)=M\v`.
 
  
-                      
+** Rosetta Stone **                    
 <table>
 <tr>
 <th> Function:    </th><th>   Julia </th><th>  MATLAB </th><th>            Mathematica     </th><th>       Maple ([LinearAlgebra] package) </th>
