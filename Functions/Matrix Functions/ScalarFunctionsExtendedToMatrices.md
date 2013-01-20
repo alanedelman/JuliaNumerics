@@ -42,11 +42,11 @@ f(x)=1/x, `f(M,v)=M\v`.
 <tr><th>Matrix Exponential </th>     <th>expm</th><th>   expm </th>            <th> MatrixExp </th><th>    MatrixExponential </th>
 </tr>
 <tr><th> Matrix Logarithm  </th><th>   </th><th>                logm </th>      <th>       MatrixLog </th><th>    use MatrixFunction </th>
-<tr><th>Matrix Sqrt</th> <th>M^.5</th> <th>                       sqrtm,M^(.5)  </th><th>   MatrixPower[M,0,5]   </th>  use MatrixPower
+<tr><th>Matrix Sqrt</th> <th>M^.5</th> <th>                       sqrtm,M^(.5)  </th><th>   MatrixPower[M,0,5]   </th>  <th> use MatrixPower </th>
 </tr>
 <tr>
-<th>General Functions </th>                    funm             MatrixFunction         MatrixFunction
-</table>
+<th>General Functions </th>   <th></th><th>                 funm </th> <th>     MatrixFunction </th><th>         MatrixFunction
+ </th></table>
 
 
 Additions that might make sense:
