@@ -1,4 +1,11 @@
-The sine function is ill-conditioned for very large arguments.
+# Sine
+**Wikipedia Definition:**
+http://en.wikipedia.org/wiki/Sine
+
+
+
+The sine function is ill-conditioned for very large arguments and near the zeros.
+
 The condition number is <put in formula>
 
 My favorite example of this is sin(2.0^64) as I have seen many
