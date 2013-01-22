@@ -2,7 +2,9 @@
 **Wikipedia Definition:**
 http://en.wikipedia.org/wiki/Pi
 
-**π  vs pi**
+**π  vs pi (The real number and the nearest double precision number)**
+
+
 Most of the time, 
 it is not worth making a large distinction between the real mathematical constant π  and the 64 bit double precision number pi.
 However, since functions like sine are ill-conditoned at multiples of
@@ -37,4 +39,4 @@ pi
 </tr>
 </table>
 
-=2*(1+2570638124657944/2^52)
+
