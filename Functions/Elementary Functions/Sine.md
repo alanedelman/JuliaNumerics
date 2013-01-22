@@ -44,6 +44,16 @@ MATLAB (R2010b)
 <td> format(hex);sin(2^64) </td>
 <td>  3f982a353118793d </td>
 </tr>
+<tr>
+<td> R 2.10.1 (windows vista) </td>
+</tr>
+<td>
+format(sin(2^64),digits=20)
+</td>
+<td>
+[1] "0.2472606463094177"
+</td>
+
 
 
 </table>
