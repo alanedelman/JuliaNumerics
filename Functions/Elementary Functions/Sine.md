@@ -27,6 +27,16 @@ Answers you may see. (In Numerical Order)
 3.  0.3128…  Commonly seen on 32 bit linux not using fdlibm
 4.  0.8281… Seen on maple which first rounds 2^64 to be 18446744070000000000 and then takes the sin.  (2^64=18446744073709551616).
 
+The open source library fdlibm (Freely Distributable Library-Math) was developed at SUN Microsystem (when?) by (among others, I'd bet, good folks trained by Kahan???? history missing!)  It contains in particular
+a higly accurate `modhalfpi` function 
+<a href="http://www.netlib.org/fdlibm/e_rem_pio2.c">
+e_rem_pio2.c </a>.  Where a quick click reveals pi/2 and 2/pi in hex to many digits.
+
+I think I once heard that it was msvcrt.dll (the microsoft c runtime library) that was giving the often seen windows answer of 0.2472....  This is not confirmed.
+
+Also the julia thread https://github.com/JuliaLang/julia/issues/1768#issuecomment-12505531 has Viral reporting that Hari Koduvely saw the 0.3128... number on windows on a very old version of julia.  It might
+be good to double check if that wasn't linux.
+
 <table>
 
 <td>
