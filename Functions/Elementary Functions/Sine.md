@@ -20,6 +20,12 @@ sin(x+iy)=sin x cosh y + i cos x sinhy
 
 **Ill Conditioned Case study:sin(2^64)**
 
+Answers you may see. (In Numerical Order)
+1. 0.0235… Best Answer
+2. 0.2472… Commonly seen on 32 bit windows not using fdlibm
+3. 0.3128…  Commonly seen on 32 bit linux not using fdlibm
+4. 0.8281… Seen on maple which first rounds 2^64 to be 18446744070000000000 and then takes the sin.  (2^64=18446744073709551616).
+
 <table>
 <tr>
 <td>
