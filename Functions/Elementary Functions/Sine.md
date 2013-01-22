@@ -17,3 +17,6 @@ on different platforms.
 
 sin(2.0^64)  0.023598509904440  3f982a353118793d
 
+** Julia Discussions **
+`sin(2.0^64)` and `sin(pi)` are discussed: 
+https://github.com/JuliaLang/julia/issues/1768#issuecomment-12505531
