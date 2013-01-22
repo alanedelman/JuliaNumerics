@@ -22,12 +22,17 @@ sin(x+iy)=sin x cosh y + i cos x sinhy
 
 <table>
 <tr>
-<td> Julia (pre 0.1) </td>
+Julia (pre 0.1) 
+</tr>
 <tr>
-<td> `sin(2.0^64)` </td>
+<td> sin(2.0^64) </td>
 <td> 0.023598509904439558 </td>
-<td> `num2hex(sin(2.0^64))` </td>
+<td> num2hex(sin(2.0^64)) </td>
 <td> “3f982a353118793d” </td>
+<tr>
+</tr>
+<tr>
+MATLAB
 </tr>
 
 
