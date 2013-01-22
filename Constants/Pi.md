@@ -21,6 +21,7 @@ small and not 0.  Sometimes this feels perhaps unnecessarily like a disconcertin
 <td>
 </td>
 <td>
+ 3.14159265358979323846264338328
 </td>
 </tr>
 <tr>
@@ -28,8 +29,10 @@ small and not 0.  Sometimes this feels perhaps unnecessarily like a disconcertin
 pi
 </td>
 <td>
+ 2^1*(1+2570638124657944/2^52)
 </td>
 <td>
+ 3.14159265358979311599796346854
 </td>
 </tr>
 </table>
