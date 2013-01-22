@@ -12,7 +12,8 @@ However, since functions like sine are ill-conditoned at multiples of
 a certain emotional concern shows up when we see sin(pi) being merely
 small and not 0.  Sometimes this feels perhaps unnecessarily like a disconcerting experimental error.  See 
 <a href="https://github.com/alanedelman/JuliaNumerics/blob/master/Functions/Elementary%20Functions/Sine.md">
-(The sine page) </a> for further discussion on such an example.
+(The sine page) </a> for further discussion on the distinction between
+sin(π) and sin(pi).
 
 
 <table>
