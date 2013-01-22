@@ -30,7 +30,7 @@ Answers you may see. (In Numerical Order)
 The open source library fdlibm (Freely Distributable Library-Math) was developed at SUN Microsystem (when?) by (among others, I'd bet, good folks trained by Kahan???? history missing!)  It contains in particular
 a higly accurate `modhalfpi` function 
 <a href="http://www.netlib.org/fdlibm/e_rem_pio2.c">
-e_rem_pio2.c </a>.  Where a quick click reveals pi/2 and 2/pi in hex to many digits.
+e_rem_pio2.c </a>.  Where a quick click reveals π/2 and 2/π in hex to many digits.
 
 I think I once heard that it was msvcrt.dll (the microsoft c runtime library) that was giving the often seen windows answer of 0.2472....  This is not confirmed.
 
@@ -94,3 +94,15 @@ N[Sin[2^64],20]
 </table>
 
 **Ill Conditioned Case study:sin(pi)**
+
+It is useful to understand the difference between π and pi.
+(See https://github.com/alanedelman/JuliaNumerics/blob/master/Constants/Pi.md)
+
+
+<table>
+<tr>
+<td> sin(π) </td> <td> 0 </td>
+</tr>
+<tr>
+</td> sin(pi) </td> <td> very close to π-pi. </td><td> 1.224646799147353e-016 </td>
+</table>
