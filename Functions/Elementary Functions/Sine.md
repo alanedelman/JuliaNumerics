@@ -101,8 +101,8 @@ It is useful to understand the difference between π and pi.
 
 <table>
 <tr>
-<td> sin(π) </td> <td> 0 </td>
+<td> sin(?) </td> <td> 0 </td>
 </tr>
 <tr>
-</td> sin(pi) </td> <td> very close to π-pi. </td><td> 1.224646799147353e-016 </td>
+</td> sin(pi) </td> <td> very close to ?-pi. </td><td> 1.224646799147353e-016 </td>
 </table>
