@@ -2,7 +2,7 @@
 **Wikipedia Definition:**
 http://en.wikipedia.org/wiki/Pi
 
-**?  vs pi**
+**:pi  vs pi**
 Most of the time, 
 it is not worth making a large distinction between the real mathematical constant ?  and the 64 bit double precision number pi.
 However, since functions like sine are ill-conditoned at multiples of
@@ -10,7 +10,7 @@ However, since functions like sine are ill-conditoned at multiples of
 a certain emotional concern shows up when we see sin(pi) being merely
 small and not 0.  Sometimes this feels perhaps unnecessarily like a disconcerting experimental error.  See 
 <a href="https://github.com/alanedelman/JuliaNumerics/blob/master/Functions/Elementary%20Functions/Sine.md">
-(The sin page) </a> for further discussion.
+(The sine page) </a> for further discussion on such an example.
 
 
 
