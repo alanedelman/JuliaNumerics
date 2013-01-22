@@ -22,10 +22,10 @@ sin(x+iy)=sin x cosh y + i cos x sinhy
 
 Answers you may see. (In Numerical Order)
 
-1.  0.0235� Best Answer (seen on all platforms using the fdlibm library)
-2.  0.2472� Commonly seen on 32 bit windows not using fdlibm
-3.  0.3128�  Commonly seen on 32 bit linux not using fdlibm
-4.  0.8281� Seen on maple which first rounds 2^64 to be 18446744070000000000 and then takes the sin.  (2^64=18446744073709551616).
+1.  0.0235 Best Answer (seen on all platforms using the fdlibm library)
+2.  0.2472  Commonly seen on 32 bit windows not using fdlibm
+3.  0.3128 Commonly seen on 32 bit linux not using fdlibm
+4.  0.8281 Seen on maple which first rounds 2^64 to be 18446744070000000000 and then takes the sin.  (2^64=18446744073709551616).
 
 The open source library fdlibm (Freely Distributable Library-Math) was developed at SUN Microsystem (when?) by (among others, I'd bet, good folks trained by Kahan???? history missing!)  It contains in particular
 a higly accurate `modhalfpi` function 
@@ -104,5 +104,5 @@ It is useful to understand the difference between π and pi.
 <td> sin(π) </td> <td> 0 </td>
 </tr>
 <tr>
-</td> sin(pi) </td> <td> very close to π-pi. </td><td> 1.224646799147353e-016 </td>
+<td> sin(pi) </td> <td> very close to π-pi. </td><td> 1.224646799147353e-016 </td>
 </table>
