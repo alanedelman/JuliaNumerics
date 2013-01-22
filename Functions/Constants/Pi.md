@@ -2,7 +2,7 @@
 **Wikipedia Definition:**
 http://en.wikipedia.org/wiki/Pi
 
-**:pi  vs pi**
+**<span class="greek">?</span>  vs pi**
 Most of the time, 
 it is not worth making a large distinction between the real mathematical constant ?  and the 64 bit double precision number pi.
 However, since functions like sine are ill-conditoned at multiples of
