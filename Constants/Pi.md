@@ -1,5 +1,5 @@
 # Pi
-**Wikipedia Definition:**
+**Wikipedia Definition of the mathematical constant:**
 http://en.wikipedia.org/wiki/Pi
 
 **π  vs pi (The real number and the nearest double precision number)**
