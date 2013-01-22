@@ -1,4 +1,4 @@
-Ôªø# Sine
+# Sine
 **Wikipedia Definition:**
 http://en.wikipedia.org/wiki/Sine
 
@@ -6,7 +6,7 @@ http://en.wikipedia.org/wiki/Sine
 **Condition Number**
 `abs(x/tan(x))`
 
-The sine function is ill-conditioned for very large arguments and near the zeros (integer multiples of œÄ) .
+The sine function is ill-conditioned for very large arguments and near the zeros (integer multiples of ?) .
 
 
 **Julia Discussions**
@@ -21,10 +21,10 @@ sin(x+iy)=sin x cosh y + i cos x sinhy
 **Ill Conditioned Case study:sin(2^64)**
 
 Answers you may see. (In Numerical Order)
-1. 0.0235‚Ä¶ Best Answer
-2. 0.2472‚Ä¶ Commonly seen on 32 bit windows not using fdlibm
-3. 0.3128‚Ä¶  Commonly seen on 32 bit linux not using fdlibm
-4. 0.8281‚Ä¶ Seen on maple which first rounds 2^64 to be 18446744070000000000 and then takes the sin.  (2^64=18446744073709551616).
+1.  0.0235Ö Best Answer
+2.  0.2472Ö Commonly seen on 32 bit windows not using fdlibm
+3.  0.3128Ö  Commonly seen on 32 bit linux not using fdlibm
+4.  0.8281Ö Seen on maple which first rounds 2^64 to be 18446744070000000000 and then takes the sin.  (2^64=18446744073709551616).
 
 <table>
 <tr>
@@ -36,7 +36,7 @@ Julia (pre 0.1)
 <td> sin(2.0^64) </td>
 <td> 0.023598509904439558 </td>
 <td> num2hex(sin(2.0^64)) </td>
-<td> ‚Äú3f982a353118793d‚Äù </td>
+<td> ì3f982a353118793dî </td>
 <tr>
 </tr>
 <tr>
