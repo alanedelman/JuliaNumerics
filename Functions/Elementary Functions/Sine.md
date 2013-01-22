@@ -21,6 +21,7 @@ sin(x+iy)=sin x cosh y + i cos x sinhy
 **Ill Conditioned Case study:sin(2^64)**
 
 Answers you may see. (In Numerical Order)
+
 1.  0.0235… Best Answer
 2.  0.2472… Commonly seen on 32 bit windows not using fdlibm
 3.  0.3128…  Commonly seen on 32 bit linux not using fdlibm
