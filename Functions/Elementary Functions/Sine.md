@@ -43,7 +43,7 @@ I think I once heard that it was msvcrt.dll (the microsoft c runtime library) th
 Also the julia thread https://github.com/JuliaLang/julia/issues/1768#issuecomment-12505531 has Viral reporting that Hari Koduvely saw the 0.3128... number on windows on a very old version of julia.  It might
 be good to double check if that wasn't linux.
 
-
+<table>
 **Julia (pre 0.1)**
 <table>
 <tr>
@@ -67,6 +67,8 @@ be good to double check if that wasn't linux.
 </table>
 
 **R 2.10.1 (windows vista)**
+<table>
+<tr>
 <td>
 format(sin(2^64),digits=20)
 </td>
@@ -92,6 +94,7 @@ N[Sin[2^64],20]
  0.023598509904439558634
 </td>
 </tr>
+</table>
 </table>
 
 **Ill Conditioned Case study:sin(pi)**
