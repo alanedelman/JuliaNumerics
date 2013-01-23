@@ -8,6 +8,12 @@ http://en.wikipedia.org/wiki/Sine
 
 The sine function is ill-conditioned for very large arguments and near the zeros (non-zero integer multiples of π)) .
 
+**Desirable Features**
+1. Least possible forward error: This means that sin(x) computes the 
+correctly rounded theoretical value of the sine of the machine number x
+2. Monotonicity: This means that for real x, at least, the computed sin(x) is monotonic where the underlying theoretical function is. 
+3. Performance: May be (?) at odds with number 1, which would then require settling merely for a good backward error. 
+
 
 **Julia Discussions**
 
@@ -37,12 +43,9 @@ I think I once heard that it was msvcrt.dll (the microsoft c runtime library) th
 Also the julia thread https://github.com/JuliaLang/julia/issues/1768#issuecomment-12505531 has Viral reporting that Hari Koduvely saw the 0.3128... number on windows on a very old version of julia.  It might
 be good to double check if that wasn't linux.
 
-<table>
 
-<td>
-Julia (pre 0.1)
-</td> 
-</tr>
+** Julia (pre 0.1)
+<table>
 <tr>
 <td> sin(2.0^64) </td>
 <td> 0.023598509904439558 </td>
@@ -50,6 +53,9 @@ Julia (pre 0.1)
 <td> 3f982a353118793d</td>
 <tr>
 </tr>
+</table>
+
+
 <tr>
 <td>
 MATLAB (R2010b)
