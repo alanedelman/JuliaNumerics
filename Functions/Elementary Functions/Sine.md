@@ -64,9 +64,9 @@ be good to double check if that wasn't linux.
 <td> format(hex);sin(2^64) </td>
 <td>  3f982a353118793d </td>
 </tr>
-<tr>
-<td> R 2.10.1 (windows vista) </td>
-</tr>
+</table>
+
+**R 2.10.1 (windows vista)**
 <td>
 format(sin(2^64),digits=20)
 </td>
@@ -78,8 +78,6 @@ format(sin(2^64),digits=20)
 
 **Mathematica 7 (Windows Vista)**
 <table>
-</td>
-</tr>
 <tr>
 <td>
 N[Sin[2^64]]
@@ -94,7 +92,6 @@ N[Sin[2^64],20]
  0.023598509904439558634
 </td>
 </tr>
-
 </table>
 
 **Ill Conditioned Case study:sin(pi)**
