@@ -44,7 +44,7 @@ Also the julia thread https://github.com/JuliaLang/julia/issues/1768#issuecommen
 be good to double check if that wasn't linux.
 
 
-** Julia (pre 0.1)
+**Julia (pre 0.1)**
 <table>
 <tr>
 <td> sin(2.0^64) </td>
@@ -56,11 +56,8 @@ be good to double check if that wasn't linux.
 </table>
 
 
-<tr>
-<td>
-MATLAB (R2010b)
-</td>
-</tr>
+**MATLAB (R2010b**
+<table>
 <tr>
 <td> sin(2^64) </td>
 <td> 0.023598509904440 </td>
@@ -77,9 +74,10 @@ format(sin(2^64),digits=20)
 [1] "0.2472606463094177"
 </td>
 </tr>
-<tr>
-<td>
-Mathematica 7 (Windows Vista)
+</table>
+
+**Mathematica 7 (Windows Vista)**
+<table>
 </td>
 </tr>
 <tr>
