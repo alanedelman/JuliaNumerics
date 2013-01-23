@@ -24,7 +24,7 @@ https://github.com/JuliaLang/julia/issues/1768#issuecomment-12505531
 
 sin(x+iy)=sin x cosh y + i cos x sinhy
 
-**Ill Conditioned Case study:sin(2^64)**
+***Ill Conditioned Case study:sin(2^64)***
 
 Answers you may see. (In Numerical Order)
 
@@ -43,7 +43,7 @@ I think I once heard that it was msvcrt.dll (the microsoft c runtime library) th
 Also the julia thread https://github.com/JuliaLang/julia/issues/1768#issuecomment-12505531 has Viral reporting that Hari Koduvely saw the 0.3128... number on windows on a very old version of julia.  It might
 be good to double check if that wasn't linux.
 
-<table>
+
 **Julia (pre 0.1)**
 <table>
 <tr>
@@ -95,9 +95,9 @@ N[Sin[2^64],20]
 </td>
 </tr>
 </table>
-</table>
 
-**Ill Conditioned Case study:sin(pi)**
+
+***Ill Conditioned Case study:sin(pi)***
 
 It is useful to understand the difference between π and pi.
 (See https://github.com/alanedelman/JuliaNumerics/blob/master/Constants/Pi.md)
