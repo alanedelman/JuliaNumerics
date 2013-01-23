@@ -6,7 +6,7 @@ http://en.wikipedia.org/wiki/Sine
 **Condition Number**
 `abs(x/tan(x))`
 
-The sine function is ill-conditioned for very large arguments and near the zeros (integer multiples of π)) .
+The sine function is ill-conditioned for very large arguments and near the zeros (non-zero integer multiples of π)) .
 
 
 **Julia Discussions**
