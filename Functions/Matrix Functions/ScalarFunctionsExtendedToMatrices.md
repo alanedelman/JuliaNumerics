@@ -66,3 +66,9 @@ Additions that might make sense:
 4.  Numerical comparison of good test cases
 
 would be good to add R and python and point out exactly the places where there are interesting numerical differencs.
+
+
+
+
+Note: in many cases the general functions could readily be replaced with alternatives that are faster 
+e.g. if matrices are hermitian the spectral approach 
